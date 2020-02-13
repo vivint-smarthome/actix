@@ -39,7 +39,7 @@ http = ["actix-http"]
 actix-rt = "1.0.0"
 actix_derive = "0.5"
 bytes = "0.5.3"
-crossbeam-channel = "0.4"
+crossbeam-channel = { git = "https://github.com/crossbeam-rs/crossbeam", rev = "bebf25e11194aeb8b9cc3102d55dc2d2d1f28bbf" }
 derive_more = "0.99.2"
 futures = "0.3.1"
 log = "0.4"
