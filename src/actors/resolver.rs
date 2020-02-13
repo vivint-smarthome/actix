@@ -4,7 +4,7 @@
 //!
 //! ```rust
 //! #![recursion_limit="128"]
-//! use futures::{future, FutureExt};
+//! use futures_util::{future, future::FutureExt};
 //! use actix::prelude::*;
 //! use actix::actors::resolver;
 //!

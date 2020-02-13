@@ -41,7 +41,8 @@ actix_derive = "0.5"
 bytes = "0.5.3"
 crossbeam-channel = { git = "https://github.com/crossbeam-rs/crossbeam", rev = "bebf25e11194aeb8b9cc3102d55dc2d2d1f28bbf" }
 derive_more = "0.99.2"
-futures = "0.3.1"
+futures-channel = { version = "0.3.1" }
+futures-util = { version = "0.3.1", default-features = false, features = ["alloc", "async-await"] }
 log = "0.4"
 pin-project = "0.4.6"
 lazy_static = "1.4"
